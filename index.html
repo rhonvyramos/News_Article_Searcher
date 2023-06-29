@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
+
+    <!-- header elements -->
     <header>
         <section id="header_text">
             <p id="text_title">Libel News</p>
@@ -26,7 +28,11 @@
         </section>
     </header>
 
+    <!-- main content elements -->
+    <!-- search tab elements -->
     <section id="tab_search">
+
+        <!-- search tab input area-->
         <section id="search_input">
             <section id="input_top_half">
                 <section id="input_keyword">
@@ -52,11 +58,54 @@
             </section>
         </section>
     </section>
+
+    <!-- journal tab elements -->
     <section id="tab_journal">
+
+        <!-- journal tab input area -->
+        <section id="search_input">
+            <section id="input_top_half">
+                <section id="input_keyword">
+                    <input type="text" id="keyword_search_term" placeholder="Search the news...">
+                </section>
+                <section id="input_select_category">
+                    <select id="select_category_dropdown">
+                        <option value="option1">All Categories</option>
+                        <option value="option2">Arts</option>
+                        <option value="option3">Business</option>
+                        <option value="option4">Politics</option>
+                        <option value="option5">Religion</option>
+                        <option value="option6">Science</option>
+                        <option value="option7">Sports</option>
+                        <option value="option8">World</option>
+                    </select>
+                </section>
+            </section>
+            <section id="input_bottom_half">
+                <input type="text" id="date_from" placeholder="From...">
+                <input type="text" id="date_to" placeholder="Up to...">
+                <button id="search_input_button">Search</button>
+            </section>
+        </section>
+
+        <!-- journal notes area -->
         <section id="journal_display">
-            <div id="placeholder_box_journal"></div>
+            <section id="journal_news_results">
+                <h2 id="results_title">Category</h2>
+                <section id="results_outputs"></section>
+            </section>
+
+            <section id="journal_entry">
+                <section id="entry_header">
+                    <input type="text" id="entry_title">
+                    <button id="entry_save">Save Entry</button>
+                </section>
+                <input type="text" id="entry_text">
+            </section>
         </section>
     </section>
+
+    <!-- contacts tab elements -->
     <section id="tab_contacts">
         <section id="contacts_display">
             <div id="placeholder_box_contacts"></div>

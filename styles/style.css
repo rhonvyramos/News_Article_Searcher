@@ -104,4 +104,38 @@ header {
     background-color: cyan;
 }
 
+/* journal stylings */
+#tab_journal {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#journal_display {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 20px;
+}
+
+#journal_entry {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+}
+
+#entry_text {
+    height: 100%;
+}
+
+#results_outputs {
+    height: 400px;
+    width: 200px;
+
+    border-style: solid;
+    margin-right: 20px;
+}
+
+
 

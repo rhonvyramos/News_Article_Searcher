@@ -118,7 +118,17 @@ header {
     width: 100%;
 }
 
+#entry_header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#entry_title {
+    margin-right: 5px;
+}
+
 #entry_text {
+    margin-top: 10px;
     height: 100%;
 }
 

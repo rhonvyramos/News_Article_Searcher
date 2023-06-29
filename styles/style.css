@@ -180,4 +180,17 @@ header {
     border-style: solid;
 }
 
+/* footer stylings */
+footer {
+    display:flex;
+    position:fixed;
+    width:100%;
+    bottom:0px;
+    border-style: solid;
+}
+
+footer p {
+    color: grey;
+    margin:20px;
+}
 

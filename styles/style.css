@@ -148,6 +148,11 @@ header {
     background-color: cyan;
 }
 
+#contacts_display {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 #contact_text {
     display: flex;
     flex-direction: column;
@@ -166,6 +171,8 @@ header {
 .contact_box {
     height: 300px;
     width: 500px;
+
+    margin: 5px;
 
     display: flex;
     justify-content: space-between;

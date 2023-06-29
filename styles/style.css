@@ -87,23 +87,8 @@ header {
     justify-content: space-around;
 }
 
-/* journal stylings */
 #tab_journal, #tab_contacts {
     display: none;
-}
-
-#placeholder_box_journal {
-    height: 200px;
-    width: 200px;
-
-    background-color: orange;
-}
-
-#placeholder_box_contacts {
-    height: 200px;
-    width: 200px;
-
-    background-color: cyan;
 }
 
 /* journal stylings */
@@ -117,7 +102,9 @@ header {
     display: flex;
     justify-content: space-around;
 
-    margin: 20px;
+    width: 100%;
+
+    margin-top: 10px;
 }
 
 #journal_entry {
@@ -143,5 +130,37 @@ header {
     margin-right: 20px;
 }
 
+/* contacts stylings */
+#placeholder_box_contacts {
+    height: 100%;
+    width: 40%;
+
+    background-color: cyan;
+}
+
+#contact_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 50%;
+
+    margin-left: 10px;
+}
+
+#contact_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_box {
+    height: 300px;
+    width: 500px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-style: solid;
+}
 
 

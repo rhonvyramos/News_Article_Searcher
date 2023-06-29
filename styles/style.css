@@ -65,7 +65,7 @@ header {
 }
 
 /* search input stylings */
-#news_search {
+#tab_search {
     display: flex;
     justify-content: center;
 }
@@ -83,6 +83,25 @@ header {
 #input_top_half {
     display: flex;
     justify-content: space-around;
+}
+
+/* journal stylings */
+#tab_journal, #tab_contacts {
+    display: none;
+}
+
+#placeholder_box_journal {
+    height: 200px;
+    width: 200px;
+
+    background-color: orange;
+}
+
+#placeholder_box_contacts {
+    height: 200px;
+    width: 200px;
+
+    background-color: cyan;
 }
 
 

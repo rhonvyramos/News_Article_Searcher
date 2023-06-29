@@ -19,14 +19,14 @@
         <section id="header_nav_bar">
             <section id="nav_bar_container">
                 <ul id="nav_bar_list">
-                    <a href="#"><li>Search</li></a>
-                    <a href="#"><li>Journal</li></a>
-                    <a href="#"><li>About</li></a>
+                    <a href="#" id="display_search"><li>Search</li></a>
+                    <a href="#" id="display_journal"><li>Journal</li></a>
+                    <a href="#" id="display_contacts"><li>Contacts</li></a>
                 </ul>
         </section>
     </header>
 
-    <section id="news_search">
+    <section id="tab_search">
         <section id="search_input">
             <section id="input_top_half">
                 <section id="input_keyword">
@@ -52,8 +52,16 @@
             </section>
         </section>
     </section>
-    <section id="news_journal"></section>
-    <section id="news_about_us"></section>
+    <section id="tab_journal">
+        <section id="journal_display">
+            <div id="placeholder_box_journal"></div>
+        </section>
+    </section>
+    <section id="tab_contacts">
+        <section id="contacts_display">
+            <div id="placeholder_box_contacts"></div>
+        </section>
+    </section>
 
     <!--jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
